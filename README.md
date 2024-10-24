@@ -52,11 +52,13 @@ The tools and method used in this project analysis include:
 
 ![Screenshot (88)](https://github.com/user-attachments/assets/900d9f1d-2537-4aed-89ab-3ed103d7b3c6)
 
+![Screenshot (96)](https://github.com/user-attachments/assets/c1527c80-b187-4de6-8619-d35107387ebb)
+
 
 ### Inference
-- Sales Overvie:
+- Sales Overview: It was deduzed that the sales decline in Year 2024. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having by sales promotion and avertisement to increase the revenue.
 
-- Top performing products
+- Top performing products:
 
 - Regional Breakdown
 
