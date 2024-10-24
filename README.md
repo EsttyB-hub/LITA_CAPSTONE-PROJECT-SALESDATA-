@@ -41,3 +41,29 @@ The tools and method used in this project analysis include:
 ### 1. Total sales by product
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/a26ffc45-99e0-453c-9fbe-89211cc05043)
+
+### 2. Total sales by Region
+
+![Screenshot (84)](https://github.com/user-attachments/assets/ac27b920-98d7-4b25-9eab-22aef8e55977)
+
+### 3. Total Sales per month
+
+![Screenshot (87)](https://github.com/user-attachments/assets/0b793aed-6a46-4fc4-a898-036c3c09494b)
+
+![Screenshot (88)](https://github.com/user-attachments/assets/900d9f1d-2537-4aed-89ab-3ed103d7b3c6)
+
+
+### Inference
+- Sales Overvie:
+
+- Top performing products
+
+- Regional Breakdown
+
+### Conclusion
+
+
+
+
+
+
