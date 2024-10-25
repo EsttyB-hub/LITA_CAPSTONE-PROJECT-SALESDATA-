@@ -66,7 +66,7 @@ The tools and method used in this project analysis include:
 - Top performing products: By using the exel & SQL, the product "Shoes" was considered to be the top performing product base on the total revenue it generated which is higher than the other products.
 
 - Regional Breakdown:
-  1. East: In Year 2023, the total revenue generated was N1,987,500. However, there was a significant decline in 2024 with the total revenue coming down to N462,500 representing 62% decrease. This all in revenue may suggest increase in competitors and/or market contraction. This indicate a potential area of concern which requires immediate attention.
+  1. East: In Year 2023, the total revenue generated was N1,987,500. However, there was a significant decline in 2024 with th  total revenue coming down to N462,500 representing 62% decrease. This all in revenue may suggest increase in competitors, difficulty in maintaining sales and/or market contraction. This indicate a potential area of concern which requires immediate attention.
   2. North: There was a notable increase in the total turnover from N725,000 in Year 2023 to N1,225,000 in Year 2024 with 26% increase. The company should invest more products in this region to better boost the total revenue.
   3. South: This region also performs well in generating revenue to the company. However, there was a slight decrease in revenue generated as decrease of N175,000 was recorded representing 4% decrease. Thisis not a major challenge but the reason for the drop in revenue have to be investigate so as to maintan/increase the revenue in a subsequent year.
   4. West: There is a significant increase in the revenue recorded in this region as N637,500 increase was recorded in between 2023 & 2024. It might be that the company is a monopoly. This need to be maintain for the region to keep on recording increase in revenue.
@@ -74,7 +74,7 @@ The tools and method used in this project analysis include:
 
 ### Conclusion
 
-
+Based on the data sets analyzed for year 2023 and 2024, it was confirmed that the company recorded a declined revenue generation in South and most importantly East which need to be addressed so as to improve the total revenue in the future. The company is advised to do a market survey so as to understand the customers' preference, improve/maintain the product quality and make a strategy plan on how to deliver and capture the heart of the customers.
 
 
 
