@@ -56,7 +56,7 @@ The tools and method used in this project analysis include:
 
 
 ### Inference
-- Sales Overview: It was deduced that the sales decline in Year 2024. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having by sales promotion and avertisement to increase the revenue.
+- Sales Overview: It was deduced that the sales decline in Year 2024 with N562,500 lower than the revenue for the year 2023. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
 
 - Top performing products: By using the exel & SQL, the product "Shoes" was considered to be the top performing product base on the total revenue it generated which is higher than the other products.
 
