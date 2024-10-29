@@ -146,7 +146,6 @@ group by Product
 
 
 
-
 ### Inference
 
 - Sales Overview: It was deduced that the sales decline in Year 2024 with N562,500 lower than the revenue for the year 2023. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
