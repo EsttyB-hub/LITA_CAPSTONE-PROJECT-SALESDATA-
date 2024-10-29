@@ -1,5 +1,13 @@
 # LITA_CAPSTONE_PROJECT_SALESDATA
 
+[Project Overview](Project-Overview)
+[Data Analyzed](Data-Analyzed)
+[Project Objective](Project-Objective)
+[Key Metrics](Key-Metrics)
+[Tools and Method used](Tools-and-Method-used)
+[Visual Analysis and Inference](Visual-Analysis-and-Inference)
+[Conclusion](Conclusion)
+
 ## Project Overview
 
 This project aims at analyzing the sales performance of a retail store. It is meant to uncover key insights such as top-selling products, regional performance and monthly sales trend.
@@ -38,6 +46,13 @@ The tools and method used in this project analysis include:
 
 ## Visual Analysis and Inference
 
+## Excel 
+### Metrics such as Total Revenue for each Region, Average Revenue for each product, the lowest and highest revenue.
+
+![Screenshot (111)](https://github.com/user-attachments/assets/1761b434-a2b9-4078-bcef-5084aa01744a)
+
+## Pivot Table
+
 ### 1. Total sales by product
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/a26ffc45-99e0-453c-9fbe-89211cc05043)
@@ -57,6 +72,73 @@ The tools and method used in this project analysis include:
 ### 4. Average sales per product
 
 ![Screenshot (98)](https://github.com/user-attachments/assets/5ec01ce0-eb2b-4e3d-8bd0-7c2796d18d94)
+
+## SQL
+``` SQL
+create database Capstone_Project
+
+select * from [dbo].[LITA Capstone-Dataset]
+
+---retrieving the total sales for each product category---
+
+select Product, sum(Total_Revenue) as Total_Sales
+from [dbo].[LITA Capstone-Dataset]
+group by Product;
+
+--Number of sales transaction in each region--
+
+select Region, count (*) as Sales_Transaction
+from [dbo].[LITA Capstone-Dataset]
+group by Region
+
+--Highest-selling product by total sales value--
+
+select Top 1 Product, SUM (Total_Revenue) as Total_Sales
+from [dbo].[LITA Capstone-Dataset] 
+group by Product
+
+--Total Revenue per product--
+
+select Product, SUM (Total_Revenue) as Total_Revenue
+from [dbo].[LITA Capstone-Dataset] 
+group by Product
+
+
+--Monthly sales total for the current year--
+
+select SUM (*) as Monthly_Sales
+from [dbo].[LITA Capstone-Dataset] 
+where OrderDate = '2024'
+
+--
+select MONTH (OrderDate) As month, SUM(*) As Total_Sales
+from [dbo].[LITA Capstone-Dataset]  
+where Year = '2024'
+group by month (OrderDate)
+
+--Top 5 Customers by total purchase amount--
+
+select Top 5 Customer_Id, SUM (Total_Revenue) as Total_Purchase
+from [dbo].[LITA Capstone-Dataset] 
+group by Customer_Id
+
+---Percentage of total sales in each region---
+
+select Region, % (Total_Revenue) as TotalSales_Percentage
+from [dbo].[LITA Capstone-Dataset]
+group by Region
+
+
+--- Product with no sales in the last quarter---
+
+select product, nill (Total_Revenue) as No_Sales
+from [dbo].[LITA Capstone-Dataset]
+group by Product
+
+
+## Power BI
+
+
 
 
 ### Inference
