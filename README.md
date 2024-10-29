@@ -1,11 +1,17 @@
 # LITA_CAPSTONE_PROJECT_SALESDATA
 
 [Project Overview](Project-Overview)
+
 [Data Analyzed](Data-Analyzed)
+
 [Project Objective](Project-Objective)
+
 [Key Metrics](Key-Metrics)
+
 [Tools and Method used](Tools-and-Method-used)
+
 [Visual Analysis and Inference](Visual-Analysis-and-Inference)
+
 [Conclusion](Conclusion)
 
 ## Project Overview
