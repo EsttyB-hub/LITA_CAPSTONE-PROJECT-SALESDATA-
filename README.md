@@ -45,14 +45,16 @@ The project emphasizes on achieving the following goals:
 ## Tools and Method used
 
 The tools and method used in this project analysis include:
-1. Excel: Using Excel formulas to calculate the key metrics.
+1. Excel: Using Excel formulas to clean the data and to calculate the key metrics.
 2. Pivot table: where the project is summarised in an understandable manner.
 3. SQL: where queries are written and validated to extract key insights.
-4. Power BI: This is used for data visualization of the insights found in Excel & SQL.
+4. GitHub: For Portfolio building, where the report is being recorded.
+5. Power BI: This is used for data visualization of the insights found in Excel & SQL.
 
 ## Visual Analysis and Inference
 
 ## Excel 
+
 ### Metrics such as Total Revenue for each Region, Average Revenue for each product, the lowest and highest revenue.
 
 ![Screenshot (111)](https://github.com/user-attachments/assets/1761b434-a2b9-4078-bcef-5084aa01744a)
@@ -140,23 +142,26 @@ group by Region
 select product, nill (Total_Revenue) as No_Sales
 from [dbo].[LITA Capstone-Dataset]
 group by Product
+```
 
+## Power BI VISUALIZATION
 
-## Power BI
+This is where the visualization takes place on the analysis done in Excel, Pivot & SQL and showing the Sales overview, top performing product and Regional breakdown among others.
 
+![Screenshot (120)](https://github.com/user-attachments/assets/e9ec30e0-a698-4f8e-8fbd-a6b562de38cb)
 
 
 ### Inference
 
-- Sales Overview: It was deduced that the sales decline in Year 2024 with N562,500 lower than the revenue for the year 2023. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
+- Sales Overview: It was deduced that the sales decline in Year 2024 with N109,570 lower than the revenue for the year 2023. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise of competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
 
 - Top performing products: By using the exel & SQL, the product "Shoes" was considered to be the top performing product base on the total revenue it generated which is higher than the other products.
 
 - Regional Breakdown:
-  1. East: In Year 2023, the total revenue generated was N1,987,500. However, there was a significant decline in 2024 with th  total revenue coming down to N462,500 representing 62% decrease. This all in revenue may suggest increase in competitors, difficulty in maintaining sales and/or market contraction. This indicate a potential area of concern which requires immediate attention.
-  2. North: There was a notable increase in the total turnover from N725,000 in Year 2023 to N1,225,000 in Year 2024 with 26% increase. The company should invest more products in this region to better boost the total revenue.
-  3. South: This region also performs well in generating revenue to the company. However, there was a slight decrease in revenue generated as decrease of N175,000 was recorded representing 4% decrease. Thisis not a major challenge but the reason for the drop in revenue have to be investigate so as to maintan/increase the revenue in a subsequent year.
-  4. West: There is a significant increase in the revenue recorded in this region as N637,500 increase was recorded in between 2023 & 2024. It might be that the company is a monopoly. This need to be maintain for the region to keep on recording increase in revenue.
+  1. East: In Year 2023, the total revenue generated was N393,945. However, there was a significant decline in 2024 with the  total revenue coming down to N91,980 representing 62% decrease. This decrease in revenue may suggest increase in competitors, difficulty in maintaining sales and/or market contraction. This indicate a potential area of concern which requires immediate attention.
+  2. North: There was a notable increase in the total turnover from N143,960 in Year 2023 to N243,040 in Year 2024 with 26% increase. The company should invest more products in this region to better boost the total revenue.
+  3. South: This region also performs well in generating revenue to the company. However, there was a slight decrease in revenue generated as decrease of N33,820 was recorded representing 4% decrease. This is not a major challenge but the reason for the drop in revenue have to be investigate so as to maintan/increase the revenue in a subsequent year.
+  4. West: There is a significant increase in the revenue recorded in this region as N127,135 increase was recorded in between 2023 & 2024. It might be that the company is a monopoly. This need to be maintain for the region to keep on recording increase in revenue.
   
 
 ### Conclusion
