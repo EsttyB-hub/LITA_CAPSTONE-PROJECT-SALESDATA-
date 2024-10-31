@@ -65,7 +65,6 @@ The tools and method used in this project analysis include:
 
 ![Screenshot (129)](https://github.com/user-attachments/assets/42195950-347c-4bf4-ad6e-06d7d0969cc4)
 
-
 ### 2. Total sales by Region
 
 ![Screenshot (122)](https://github.com/user-attachments/assets/e057d7a5-1d08-436f-8369-ef11059ff7c5)
