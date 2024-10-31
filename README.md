@@ -165,7 +165,7 @@ group by Product
 
 This is where the visualization takes place on the analysis done in Excel, Pivot & SQL and showing the Sales overview, top performing product and Regional breakdown among others.
 
-![Screenshot (120)](https://github.com/user-attachments/assets/e9ec30e0-a698-4f8e-8fbd-a6b562de38cb)
+![Screenshot (120)](https://github.com/user-attachments/assets/d9dfddee-738d-4c32-a278-dac6fb3d8141)
 
 
 ### Inference
