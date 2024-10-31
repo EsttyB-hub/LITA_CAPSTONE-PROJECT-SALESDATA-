@@ -8,9 +8,13 @@
 
 [Key Metrics](Key-Metrics)
 
+[Data Sources](Data-Sources)
+
 [Tools and Method used](Tools-and-Method-used)
 
-[Visual Analysis and Inference](Visual-Analysis-and-Inference)
+[Exploratory Data Analysis](Exploratory-Data-Analysis)
+
+[Data Analysis and Inference](Data-Analysis-and-Inference)
 
 [Conclusion](Conclusion)
 
@@ -42,6 +46,10 @@ The project emphasizes on achieving the following goals:
 - Average sales per product: Average total revenue of different classes of products in each periodi.e using Averageif function argument box to apply the formula . This reflects the average sales of the products in that region.
 - Total revenue by region: Sum of the total revenue grouped by each region i.e using Sumif function argument box to apply the formula. This shows the total revenue generated in that region.
 
+## Data Sources
+
+The primary source of this data considering is Capstone Project and this is an open source data which can be downloaded freely from an Open source online such as Kaggle or any other data repository site. 
+
 ## Tools and Method used
 
 The tools and method used in this project analysis include:
@@ -51,7 +59,18 @@ The tools and method used in this project analysis include:
 4. GitHub: For Portfolio building, where the report is being recorded.
 5. Power BI: This is used for data visualization of the insights found in Excel & SQL.
 
-## Visual Analysis and Inference
+## Exploratory Data Analysis
+
+This is where the exploration of data takes place to answer some questions such as:
+- What is the overall Sales trend?
+- Which of the product performs the best?
+- Which of the region recorded the highest sales?
+- Which Year recorded the highest sales?
+
+
+## Data Analysis and Inference
+
+This is where we include some basic line of codes, functions or queries used in analyzing the data.
 
 ## Excel 
 
@@ -131,15 +150,7 @@ group by Product
 
 --Monthly sales total for the current year--
 
-select SUM (*) as Monthly_Sales
-from [dbo].[LITA Capstone-Dataset] 
-where OrderDate = '2024'
 
---
-select MONTH (OrderDate) As month, SUM(*) As Total_Sales
-from [dbo].[LITA Capstone-Dataset]  
-where Year = '2024'
-group by month (OrderDate)
 
 --Top 5 Customers by total purchase amount--
 
@@ -149,16 +160,10 @@ group by Customer_Id
 
 ---Percentage of total sales in each region---
 
-select Region, % (Total_Revenue) as TotalSales_Percentage
-from [dbo].[LITA Capstone-Dataset]
-group by Region
+
 
 
 --- Product with no sales in the last quarter---
-
-select product, nill (Total_Revenue) as No_Sales
-from [dbo].[LITA Capstone-Dataset]
-group by Product
 ```
 
 ## Power BI VISUALIZATION
@@ -170,7 +175,7 @@ This is where the visualization takes place on the analysis done in Excel, Pivot
 
 ### Inference
 
-- Sales Overview: It was deduced that the sales decline in Year 2024 with N109,570 lower than the revenue for the year 2023. In the last quarter of 2023, 3 products out of 6 were not purchased by the customers, these products include; Shirt, Hat an Shoes. Also in the last quarter in the year 2024, only hat and shoes were sold leaving Jacket, Shirt, Gloves and socks unsold. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise in competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
+- Sales Overview: It was discovered that the sales decline in Year 2024 with N109,570 lower than the revenue for the year 2023. In the last quarter of 2023, 3 products out of 6 were not purchased by the customers, these products include; Shirt, Hat an Shoes. Also in the last quarter in the year 2024, only hat and shoes were sold leaving Jacket, Shirt, Gloves and socks unsold. There are many factors that might have caused the decline in revenue, it can be that there was a change in customer taste, rise in competition and this has to be addressed by having sales promotion and avertisement to increase the revenue.
 
 - Top performing products: By using the exel & SQL, the product "Shoes" was considered to be the top performing product base on the total revenue it generated which is higher than the other products.
 
