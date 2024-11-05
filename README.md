@@ -147,11 +147,26 @@ select Product, SUM (Total_Revenue) as Total_Revenue
 from [dbo].[LITA Capstone-Dataset] 
 group by Product
 
+--- calculate monthly sales totals for the current year---
+
+SELECT Month(OrderDate) AS Month,
+    SUM(Sales) AS MonthlySalesTotal
+FROM SalesData WHERE YEAR(OrderDate) = 2024
+GROUP BY Month(OrderDate)
+ORDER BY Month
+
 --Top 5 Customers by total purchase amount--
 
 select Top 5 Customer_Id, SUM (Total_Revenue) as Total_Purchase
 from [dbo].[LITA Capstone-Dataset] 
 group by Customer_Id
+
+----identify products with no sales in the last quarter.---
+SELECT Product FROM salesdata
+GROUP BY Product
+HAVING SUM(CASE 
+WHEN OrderDate BETWEEN '2024-06-01' AND '2024-08-31' 
+THEN 1 ELSE 0 END) = 0
 ```
 
 ## Power BI VISUALIZATION
