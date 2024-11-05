@@ -147,23 +147,11 @@ select Product, SUM (Total_Revenue) as Total_Revenue
 from [dbo].[LITA Capstone-Dataset] 
 group by Product
 
-
---Monthly sales total for the current year--
-
-
-
 --Top 5 Customers by total purchase amount--
 
 select Top 5 Customer_Id, SUM (Total_Revenue) as Total_Purchase
 from [dbo].[LITA Capstone-Dataset] 
 group by Customer_Id
-
----Percentage of total sales in each region---
-
-
-
-
---- Product with no sales in the last quarter---
 ```
 
 ## Power BI VISUALIZATION
